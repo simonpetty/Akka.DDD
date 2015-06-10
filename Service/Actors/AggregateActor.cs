@@ -71,6 +71,11 @@ namespace Service.Actors
             if (message is ReceiveTimeout)
             {
                 SaveSnapshot(_state);
+                return true;
+            }
+
+            if (message is SaveSnapshotSuccess)
+            {
                 Context.Stop(Self);
                 return true;
             }

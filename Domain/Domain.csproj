@@ -48,6 +48,7 @@
     <Compile Include="Commands\ReportedActions\NewCommand.cs" />
     <Compile Include="Commands\ReportedActions\ModifyCommand.cs" />
     <Compile Include="Commands\ReportedActions\CompressCommand.cs" />
+    <Compile Include="Commands\ReportedActions\UnrecognizedCommand.cs" />
     <Compile Include="Events\IApplyEvent.cs" />
     <Compile Include="Events\Trades\CouldNotProcessNewAsTradeAlreadyExists.cs" />
     <Compile Include="Events\Trades\NewTradeCreated.cs" />

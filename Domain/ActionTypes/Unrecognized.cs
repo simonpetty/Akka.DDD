@@ -13,7 +13,7 @@ namespace Domain.ActionTypes
 
         public override ReportedActionCommand GetCommand(AbideReport report)
         {
-            throw new NotImplementedException();
+            return new UnrecognizedCommand(report);
         }
     }
 }

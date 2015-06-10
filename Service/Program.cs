@@ -20,7 +20,7 @@ namespace Service
 
             clientActor.Tell(new ClientInputActor.FileUploaded
                 {
-                    Filename = @"c:\Akka\file1.csv"
+                    Filename = @"c:\Digby.Akka\file1.csv"
                 });
 
             Console.WriteLine("Press any key to process AllTransactionsPassValidation2.csv");
@@ -28,7 +28,7 @@ namespace Service
 
             clientActor.Tell(new ClientInputActor.FileUploaded
                 {
-                    Filename = @"c:\Akka\file2.csv"
+                    Filename = @"c:\Digby.Akka\file2.csv"
                 });
 
             Console.WriteLine("Press any key to exit");
